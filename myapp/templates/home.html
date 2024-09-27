@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Chaintech Network</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Chaintech Network</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/form/">form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Welcome to the Home Page</h2>
+        <p>Your Complete Software and Design Company</p>
+
+        <h2> Services</h2>
+        <p>Mobile App Development Services</p>
+        <p>Mobile App Testing</p>
+        <p>Mobile App Maintance and Support</p>
+        <p>Mobile App Backend Development</p>
+
+
+        <h2>Current Date_Time and Motivational Quotes</h2>
+        <!-- Display the current date and time -->
+        <p><strong>Current Date and Time:</strong> {{ current_time }}</p>
+
+        <!-- Display the random quote -->
+        <p><strong>Random Quote:</strong> "{{ random_quote }}"</p>
+
+<!-- Form Section -->
+        
+       
+        
+    </main>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <h2>Contact</h2>
+        <p>Mail ID: chaintechnetwork@gmail.com</p>
+        <p> Phone: 8088205041 </p>
+    </footer>
+
+</body>
+</html>
